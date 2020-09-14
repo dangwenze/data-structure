@@ -32,7 +32,7 @@ public class Josephus {
         }
         // 创建一个空的循环单链表做为容器
         CircleSingleLinkedList linkedlist = new CircleSingleLinkedList();
-        // 先创建一个循环队列，模型一圈小朋友
+        // 先创建一个循环队列  模型一圈小朋友
         for(int i = 0;i<total;i++){
             linkedlist.add(new CircleLinkNode(i+1,Integer.toString(i+1)));
         }
